@@ -30,7 +30,7 @@ module Sprockets
           file.close
 
           # Encode Original File Temp copy to WebP File Pathname
-          ::WebP.encode(file.path, webp_path.to_path, :method => 6, :quality => 92)
+          ::WebP.encode(file.path, webp_path.to_path, :method => 6, :quality => 94)
         end
 
         data
